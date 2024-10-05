@@ -1,1 +1,30 @@
-css file
+/* Default styles (Light Mode) */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* Dark Mode styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    h1 {
+        color: #ddd;
+    }
+
+    p {
+        color: #bbb;
+    }
+}
